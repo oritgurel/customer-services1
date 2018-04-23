@@ -5,7 +5,7 @@ The data is persisted with H2 database via JPA and Hibernate.
 
 ### Instructions for starting oritmalki/customer-services:secondcommit from docker image:
 
-Link to Image: https://hub.docker.com/r/oritmalki/customer-services/
+Link to Docker image: https://hub.docker.com/r/oritmalki/customer-services/
 
 #### Running the image:
 
