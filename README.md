@@ -18,5 +18,13 @@ Navigation links:
 Documentation: http://localhost:8082/swagger-ui.html or http://192.168.99.100/swagger-ui.html for docker toolbox users (get the exact host ip address as described in step 4).
 H2 database persistance: http://localhost:8082/console
 
-Note: The application is configured to run on host server port 8082. Docker's container default port is 80 (embedded tomcat default).
+Note1: The application is configured to run on host server port 8082. Docker's container default port is 80 (embedded tomcat default).
+
+Note2: this docker image does not include the client.
+If you wish to run it with the client you may clone this repository and run it on your machine:
+1. go to project folder: ```$cd <project path>``` (this <> is a place holder)
+2. start spring boot service: ```$ ./mvnw spring-boot:run```
+3. go to client folder in project: ```$cd <project path>/client```
+4. run the client server: ```$ ng serve``` (make sure you got node.js installed first)
+5. open your browser at http://localhost:4200
 
