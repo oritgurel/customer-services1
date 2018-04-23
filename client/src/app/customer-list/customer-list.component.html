@@ -1,0 +1,15 @@
+<mat-card>
+  <mat-card-header>Customer List</mat-card-header>
+  <mat-card-content>
+    <mat-list>
+      <mat-list-item *ngFor="let customer of customers">
+        <img mat-list-avatar src="{{customer.giphyUrl}}" alt="{{customer.name}}">
+        <h3 mat-line>
+          <a mat-button [routerLink]="['/customer-edit', customer.id]">{{customer.name}}</a>
+        </h3>
+      </mat-list-item>
+    </mat-list>
+  </mat-card-content>
+  <button mat-fab color="primary" [routerLink]="['/customer-add']">Add</button>
+</mat-card>
+
