@@ -15,7 +15,7 @@ Link to Image: https://hub.docker.com/r/oritmalki/customer-services/
 4. If you are using virtual box or toolbox, use docker’s default IP address as host (for example 192.168.99.100). You can see the default IP at docker’s startup, or use command: ```$docker-machine default ip.```
 
 #### Navigation links:
-Documentation: http://localhost:8082/swagger-ui.html or http://192.168.99.100/swagger-ui.html for docker toolbox users (get the exact host ip address as described in step 4).
+API Documentation: http://localhost:8082/swagger-ui.html or http://192.168.99.100/swagger-ui.html for docker toolbox users (get the exact host ip address as described in step 4).
 H2 database persistance: http://localhost:8082/console
 
 #### Note1: 
