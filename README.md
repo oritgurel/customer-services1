@@ -10,7 +10,7 @@ Link to Image: https://hub.docker.com/r/oritmalki/customer-services/
 #### Running the image:
 
 1. Start docker.
-2. Run a pulled image from repository using command: ```$ docker run -p 80:8082 oritmalki/customer-services:secondcommit```
+2. Run image from repository using command: ```$ docker run -p 80:8082 oritmalki/customer-services:secondcommit```
 3. Go to URL http://localhost:8082/swagger-ui.html#/ or {docker ip address}/swagger-ui.html#/
 4. If you are using virtual box or toolbox, use docker’s default IP address as host (for example 192.168.99.100). You can see the default IP at docker’s startup, or use command: ```$docker-machine default ip.```
 
